@@ -1,0 +1,180 @@
+/* Estilos da Home e nav  */
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    background-color: lightgreen;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: thin solid;
+    margin-top: 0;
+}
+
+.phome{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'OCR A Std', monospace;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-container figure {
+    margin: 10px;
+    text-align: center;
+}
+
+.image-container img {
+    width: 500px;
+    height: 300px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+figcaption {
+    font-family: 'OCR A Std', monospace;
+    font-size: 20px;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+/* Estilos do conteudo 1  */
+
+.match {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+.match .header {
+    text-align: center;
+    margin-bottom: 08px;
+    font-family: 'Courier New', Courier, monospace;
+    }
+
+.match .team-container {
+    display: flex;
+    align-items: center;
+    }
+
+.match .team {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    }
+
+.match .team img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    }
+
+.match .vs {
+    font-size: 24px;
+    }
+
+/* Estilos do conteudo 2  */
+
+.containernoticia {
+    display: flex;
+    align-items: center;
+}
+
+.imagenoticia {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.textnoticia {
+    align-items: left;
+    text-align: left;
+}
+
+.titulonoticia {
+    color: greenyellow;
+    font-size: 30px;
+}
+
+.localnoticia {
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Estilos do conteudo 3  */
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+        padding: 8px;
+        text-align: center;
+        border: 1px solid #ddd;
+}
+
+.table th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+}
+
+/* Estilos do conteudo 4  */
+
+.botao {
+    text-align: center;
+}
+
+.pbolao {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
